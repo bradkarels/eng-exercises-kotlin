@@ -1,10 +1,6 @@
 package io.rev27.core
 
-infix fun String.example(f:() -> Unit) {
-    println("*** An example of $this ***")
-    f()
-    println()
-}
+import io.rev27.eksersizes.utils.example
 
 object LinkedListStuff {
     val node2 = Node("two")
